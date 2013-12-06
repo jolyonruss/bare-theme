@@ -1,0 +1,168 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 17, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/*
+ __      __     _____  _____          ____  _      ______  _____ 
+ \ \    / /\   |  __ \|_   _|   /\   |  _ \| |    |  ____|/ ____|
+  \ \  / /  \  | |__) | | |    /  \  | |_) | |    | |__  | (___  
+   \ \/ / /\ \ |  _  /  | |   / /\ \ |  _ <| |    |  __|  \___ \ 
+    \  / ____ \| | \ \ _| |_ / ____ \| |_) | |____| |____ ____) |
+     \/_/    \_\_|  \_\_____/_/    \_\____/|______|______|_____/   
+
+*/
+/* ------------------------------------------
+/* COLOURS
+/* --------------------------------------- */
+/* ------------------------------------------
+/* SIZES
+/* --------------------------------------- */
+/*
+  _________     _______  ______ 
+ |__   __\ \   / /  __ \|  ____|
+    | |   \ \_/ /| |__) | |__   
+    | |    \   / |  ___/|  __|  
+    | |     | |  | |    | |____ 
+    |_|     |_|  |_|    |______|
+    
+*/
+/* line 11, ../scss/_type.scss */
+body {
+  font-size: 62.5%;
+  font-family: Georgia,serif;
+}
+
+/* line 16, ../scss/_type.scss */
+h1, h3, h4 {
+  font-family: Arial,sans-serif;
+}
+
+/* line 20, ../scss/_type.scss */
+h1 {
+  font-size: 5.3rem;
+}
+
+/* line 24, ../scss/_type.scss */
+h2 {
+  font-size: 2.2rem;
+}
+/* line 27, ../scss/_type.scss */
+h2 em {
+  font-style: italic;
+}
+
+/* line 32, ../scss/_type.scss */
+h3 {
+  font-size: 3.2rem;
+}
+
+/* line 36, ../scss/_type.scss */
+h4 {
+  font-size: 2rem;
+}
+
+/* line 40, ../scss/_type.scss */
+p {
+  font-size: 1.1rem;
+}
+/* line 43, ../scss/_type.scss */
+p em {
+  font-style: italic;
+}
+
+/*
+  _           __     ______  _    _ _______ 
+ | |        /\ \   / / __ \| |  | |__   __|
+ | |       /  \ \_/ / |  | | |  | |  | |   
+ | |      / /\ \   /| |  | | |  | |  | |   
+ | |____ / ____ \| | | |__| | |__| |  | |   
+ |______/_/    \_\_|  \____/ \____/   |_|   
+
+*/
+/*
+  _           __     ______  _    _ _______   __  __ _______   _______ _   _  _____ 
+ | |        /\ \   / / __ \| |  | |__   __| |  \/  |_   _\ \ / /_   _| \ | |/ ____|
+ | |       /  \ \_/ / |  | | |  | |  | |    | \  / | | |  \ V /  | | |  \| | (___  
+ | |      / /\ \   /| |  | | |  | |  | |    | |\/| | | |   > <   | | | . ` |\___ \ 
+ | |____ / ____ \| | | |__| | |__| |  | |    | |  | |_| |_ / . \ _| |_| |\  |____) |
+ |______/_/    \_\_|  \____/ \____/   |_|    |_|  |_|_____/_/ \_\_____|_| \_|_____/ 
+                                                                                    
+*/
+/*
+  _           __     ______  _    _ _______   ________   _________ ______ _   _ _____   _____ 
+ | |        /\ \   / / __ \| |  | |__   __| |  ____\ \ / /__   __|  ____| \ | |  __ \ / ____|
+ | |       /  \ \_/ / |  | | |  | |  | |    | |__   \ V /   | |  | |__  |  \| | |  | | (___  
+ | |      / /\ \   /| |  | | |  | |  | |    |  __|   > <    | |  |  __| | . ` | |  | |\___ \ 
+ | |____ / ____ \| | | |__| | |__| |  | |    | |____ / . \   | |  | |____| |\  | |__| |____) |
+ |______/_/    \_\_|  \____/ \____/   |_|    |______/_/ \_\  |_|  |______|_| \_|_____/|_____/ 
+                                                                                              
+*/
+/* line 11, ../scss/layout/_extends.scss */
+body {
+  margin: auto;
+}
