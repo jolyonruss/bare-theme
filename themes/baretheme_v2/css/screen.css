@@ -104,7 +104,7 @@ h1, h3, h4 {
 
 /* line 20, ../scss/_type.scss */
 h1 {
-  font-size: 5.3rem;
+  font-size: 3.3rem;
 }
 
 /* line 24, ../scss/_type.scss */
@@ -118,12 +118,12 @@ h2 em {
 
 /* line 32, ../scss/_type.scss */
 h3 {
-  font-size: 3.2rem;
+  font-size: 2.0rem;
 }
 
 /* line 36, ../scss/_type.scss */
 h4 {
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 /* line 40, ../scss/_type.scss */
@@ -162,7 +162,37 @@ p em {
  |______/_/    \_\_|  \____/ \____/   |_|    |______/_/ \_\  |_|  |______|_| \_|_____/|_____/ 
                                                                                               
 */
-/* line 11, ../scss/layout/_extends.scss */
-body {
-  margin: auto;
+/* line 1, ../scss/layout/_themeswitcher.scss */
+ul#themeswitcher {
+  margin: 0 auto;
+  width: 120px;
+}
+/* line 5, ../scss/layout/_themeswitcher.scss */
+ul#themeswitcher select {
+  width: 100%;
+}
+
+/* line 1, ../scss/layout/_page.scss */
+div#page {
+  width: 980px;
+  margin: 0 auto;
+}
+
+/* line 23, ../scss/_layout.scss */
+header.site-header {
+  background-color: #777;
+}
+
+/* line 28, ../scss/_layout.scss */
+article {
+  background-color: #AAA;
+}
+/* line 31, ../scss/_layout.scss */
+article:nth-child(even) {
+  background-color: #CCC;
+}
+
+/* line 37, ../scss/_layout.scss */
+footer.site-footer {
+  background-color: #999;
 }

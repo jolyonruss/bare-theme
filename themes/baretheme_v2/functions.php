@@ -155,7 +155,7 @@ function baretheme_fonts_url() {
 /**
  * Enqueue scripts and styles for the front end.
  *
- * @since Bare Theme 1.0
+ * @since Bare Theme 2.0
  *
  * @return void
  */
@@ -166,6 +166,11 @@ function baretheme_scripts_styles() {
 	 */
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) )
 		wp_enqueue_script( 'comment-reply' );
+
+	// Loads our screen stylesheet.
+	wp_enqueue_style( 'baretheme-style', get_template_directory_uri() . '/css/screen.css', array(), '2.0' );
+
+	/* Commenting these out for now, but keeping them for reference
 
 	// Adds Masonry to handle vertical alignment of footer widgets.
 	if ( is_active_sidebar( 'sidebar-1' ) )
@@ -182,6 +187,7 @@ function baretheme_scripts_styles() {
 
 	// Loads our main stylesheet.
 	wp_enqueue_style( 'baretheme-style', get_stylesheet_uri(), array(), '2013-07-18' );
+	*/
 
 	// Loads the Internet Explorer specific stylesheet.
 	wp_enqueue_style( 'baretheme-ie', get_template_directory_uri() . '/css/ie.css', array( 'baretheme-style' ), '2013-07-18' );

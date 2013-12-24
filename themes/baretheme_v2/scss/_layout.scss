@@ -11,17 +11,31 @@
 @import "layout/mixins";
 @import "layout/extends";
 
+@import "layout/themeswitcher";
+@import "layout/page";
+
 
 body {
-	@extend %main-column;
+	// @extend %main-column;
 }
 
 header {
+	&.site-header {
+		background-color: #777;
+	}
 }
 
 article {
+	background-color: #AAA;
+
+	&:nth-child(even) {
+		background-color: #CCC;
+	}
 }
 
 footer {
+	&.site-footer {
+		background-color: #999;	
+	}
 }
 

@@ -33,7 +33,7 @@ function baretheme_custom_header_setup() {
 		'width'                  => 1600,
 
 		// Callbacks for styling the header and the admin preview.
-		'wp-head-callback'       => 'baretheme_header_style',
+		// 'wp-head-callback'       => 'baretheme_header_style',
 		'admin-head-callback'    => 'baretheme_admin_header_style',
 		'admin-preview-callback' => 'baretheme_admin_header_image',
 	);
