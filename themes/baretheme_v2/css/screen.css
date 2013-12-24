@@ -162,6 +162,12 @@ p em {
  |______/_/    \_\_|  \____/ \____/   |_|    |______/_/ \_\  |_|  |______|_| \_|_____/|_____/ 
                                                                                               
 */
+/* line 11, ../scss/layout/_extends.scss */
+div#page {
+  width: 960px;
+  margin: auto;
+}
+
 /* line 1, ../scss/layout/_themeswitcher.scss */
 ul#themeswitcher {
   margin: 0 auto;
@@ -172,27 +178,21 @@ ul#themeswitcher select {
   width: 100%;
 }
 
-/* line 1, ../scss/layout/_page.scss */
-div#page {
-  width: 960px;
-  margin: 0 auto;
-}
-
-/* line 23, ../scss/_layout.scss */
+/* line 22, ../scss/_layout.scss */
 header.site-header {
   background-color: #777;
 }
 
-/* line 28, ../scss/_layout.scss */
+/* line 27, ../scss/_layout.scss */
 article {
   background-color: #AAA;
 }
-/* line 31, ../scss/_layout.scss */
+/* line 30, ../scss/_layout.scss */
 article:nth-child(even) {
   background-color: #CCC;
 }
 
-/* line 37, ../scss/_layout.scss */
+/* line 36, ../scss/_layout.scss */
 footer.site-footer {
   background-color: #999;
 }

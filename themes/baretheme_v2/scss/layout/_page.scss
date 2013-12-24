@@ -1,4 +1,3 @@
 div#page {
-	width: $columnWidth;
-	margin: 0 auto;
+	@extend %main-column;
 }
